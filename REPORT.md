@@ -10,7 +10,7 @@ This is an overview on the deelopment and implementation of a real time soccer p
 
 ### 1.1 Problem Definition
 
-The code challenge was developing a system that could detect soccer players using a pre-trained YOLOv11 model, assign consistent player ids during the initial video frames and maintain said ids when they exit and re-enter the frame.
+The core challenge was developing a system that could detect soccer players using a pre-trained YOLOv11 model, assign consistent player ids during the initial video frames and maintain said ids when they exit and re-enter the frame.
 
 ### 1.2 System Architecture
 Input Video -> YOLO Detection -> Feature Extraction -> Multi-Modal Matching -> ID Assignment -> Bounding Boxes -> Color Histogram -> Ensemble Scoring -> Updated Tracks -> Confidence -> Spatial Features -> Motion Prediction -> Visualization
