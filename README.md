@@ -119,5 +119,6 @@ soccer-player-object-detection/
 ├── requirements.txt        # Python dependencies
 ├── best.pt                 # Pre trained YOLOv11 model
 ├── 15sec_input_720p.mp4    # Sample input video
-└── README.md               # Documentation
+├── README.md               # Documentation
+└── methodology_report.md   # Summary report
 ```
