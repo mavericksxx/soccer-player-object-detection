@@ -2,6 +2,7 @@
 
 A real time soccer player detection and tracking system using a finetuned YOLOv11 model and computer vision.
 
+![Demo](demo.png)
 
 ## Requirements
 
