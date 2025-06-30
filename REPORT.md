@@ -83,6 +83,8 @@ Fast player movements caused detection inconsistencies and tracking failures. So
 
 Players being partially hidden behind others was also an issue. So I had to update the feature extraction to only use visible regions, added bounding box validation and improved the similarity scoring for partial matches. This resulted in consistent tracking in *80%* of occulsion cases.
 
+---
+
 ## 4. Performance Results
 Achived an id efficiency of *0.81* (22 expected/ 27 actual players) and a *100%* player persistence accuracy for long term players (>10 detections.)
 
@@ -98,6 +100,8 @@ Achived an id efficiency of *0.81* (22 expected/ 27 actual players) and a *100%*
 | Player 15 | 304/371    | 1-371     | 27 frames| 81.9% ✅   |
 | Player 5  | 298/371    | 1-371     | 47 frames| 80.3% ✅   |
 
+---
+
 ## 5. Limitations and Future Improvements
 
 ### 5.1 Current System Limitations
@@ -105,6 +109,8 @@ Even though the system demonstrates strong performance, it is not 100% accurate.
 
 ### 5.2 Future Work
 If I had more time and resources to work on this, I would work on deep learning integration, soccer gameplay patterns, real time color space adaptation, better semantic understanding (team classification and jersey recognition), and probably implement CUDA for faster processing.
+
+---
 
 ## Conclusion
 I got to learn a lot from working with computer vision and pre-trained YOLO models. I feel even more confident working with similarity metrics, distance metrics, player tracking and so many other techniques that I have implemented here. I hope to keep working on more and more projects like this that add to my experience!
